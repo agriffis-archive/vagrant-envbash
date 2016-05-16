@@ -67,7 +67,7 @@ module VagrantPlugins
           ENV.replace(new_env)
 
           # We are loaded!
-          e.envbash_loaded = ENV['VAGRANT_ENVBASH_FILE']
+          e.envbash_loaded = true
 
           # Remove VAGRANT_ENVBASH_FILE from ENV if we set it.
           ENV.delete('VAGRANT_ENVBASH_FILE') unless keep_vagrant_envbash_file
