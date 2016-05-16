@@ -106,6 +106,17 @@ REMOVED the following variables:
 
 ## FAQ
 
+### Should I commit `env.bash` to source control?
+
+No, definitely not. The purpose of `env.bash` is to store development
+configuration that isn't suitable for committing to the repository, whether
+that's secret keys or developer-specific customizations. In fact, you should add
+the following line to `.gitignore`:
+
+```
+/env.bash
+```
+
 ### Is it necessary to explicitly `export` variables in `env.bash`?
 
 Yes. If you have a lot of settings and want to avoid repeating `export`, you can
