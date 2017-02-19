@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = VagrantPlugins::EnvBash::VERSION
   spec.authors       = ["Aron Griffis"]
   spec.email         = ["aron@arongriffis.com"]
-  spec.summary       = %q{Vagrant plugin to load environment variables from env.bash}
-  spec.description   = %q{Vagrant plugin to load environment variables from env.bash}
+  spec.summary       = %q{[DEPRECATED] Vagrant plugin to load environment variables from env.bash}
+  spec.description   = %q{[DEPRECATED] Vagrant plugin to load environment variables from env.bash. Use envbash-ruby instead.}
   spec.homepage      = "https://github.com/agriffis/vagrant-envbash"
   spec.license       = "MIT"
 
@@ -18,8 +18,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.7"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "bundler"
+  spec.add_development_dependency "rake"
 
   # It seems like this shouldn't be required, but I need this in order for
   # "bundle exec vagrant" to run, even when cloning the upstream vagrant-aws
