@@ -1,4 +1,4 @@
-# DEPRECATED! Use [envbash](https://github.com/scampersand/envbash-ruby) instead.
+# [DEPRECATED] This gem is no longer recommended or maintained. Use [envbash-ruby](https://github.com/scampersand/envbash-ruby) instead, which works with Vagrant.
 
 # Vagrant envbash plugin
 
