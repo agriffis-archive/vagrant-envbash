@@ -1,3 +1,5 @@
+# DEPRECATED! Use [envbash](https://github.com/scampersand/envbash-ruby) instead.
+
 # Vagrant envbash plugin
 
 This is a [Vagrant](http://www.vagrantup.com) plugin to load environment
